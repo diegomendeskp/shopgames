@@ -1,0 +1,88 @@
+.navBar{
+    float: none;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    height: 15%;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    column-gap: 50px;
+    row-gap: 2px;
+    backdrop-filter: blur(1px);
+
+    }
+
+li {
+    list-style-type: none;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  .btbar{
+    float: left;
+    overflow: hidden;
+    
+  }
+   .openBar{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .openBar{
+    display: flex;
+    font-size: 16px;
+  }
+
+  .btmenu{
+    font-size: 32px;
+  }
+
+  .sideBar{
+    display: none;
+    position: absolute;
+    background-color: #3a4e5381;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    min-width: 160px;
+    backdrop-filter: blur(15px);
+    z-index: 1;
+  }
+
+  h3, a{
+    color:antiquewhite;
+  }
+  a:hover{
+    color:rgb(167, 155, 140);
+  }
+
+  .sideBar ul{
+    float: none;
+    color: antiquewhite;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+    text-align: left;
+  }
+  
+  .btbar:hover .sideBar {
+    display: flex;
+  }
+ 
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    gap: 20px;
+  }

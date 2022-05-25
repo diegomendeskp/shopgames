@@ -1,0 +1,67 @@
+.Card-contrast{
+    display: flex;
+    z-index: 0;
+    margin-top: -3vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px 30px;
+  
+  }
+  .card-c1, .card-c2 , .card-c3{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgb(0, 0, 0);
+    
+    transition: all 0.3s ease-out;
+    border: solid;
+    border-color: #093846;
+    text-align: center;
+    flex-direction: column;
+    background-color: #093846;
+  }
+  
+  .image ,.image2, .image3{
+    border-radius: 5px;
+  }
+  
+  .image {
+  
+    display: flex;
+    max-width: 350px;
+    max-height: 300px;
+  }
+  .image2 {
+    display: flex;
+    max-width: 345px;
+    max-height: 300px;
+  }
+  
+  .image3 {
+  
+    display: flex;
+    max-width: 350px;
+    max-height: 300px;
+  }
+  .addbtn{
+    
+    display: flex;
+    padding-bottom: 10px;
+    float: left; 
+    z-index: +20px;
+    background-color: #093846;
+    color:antiquewhite ;
+    transition: 1s;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+  
+  }
+  .addbtn:hover{
+    opacity: 0.9;
+    transition: 1s;
+    background-color: #10566b;
+    
+  }

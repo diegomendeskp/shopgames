@@ -1,0 +1,65 @@
+
+.shopItens{
+    display: flex;
+    justify-content: center;
+    gap: 20px 40px;
+    flex-wrap: wrap;
+  }
+  .cardItem{
+    display: flex;
+    height: 333px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.377);
+    transition: 0.3s;
+    transition: all 0.3s ease-out;
+    text-align:left;
+    flex-direction: column;
+    background-color: #acacac2f;
+    float: left;
+    
+  }
+  .cardItem:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.521);
+  }
+  .cardItem h2{
+    color:#093846;
+  }
+  .price{
+    color:#093846;
+  
+  }
+  
+  .imgIten{
+   
+    display: flex;
+    height: auto;
+    width: auto;
+    opacity: 0.9; 
+  }
+  .purchase{
+    display: flex;
+    padding-bottom: 10px;
+    float: left; 
+    z-index: +20px;
+    background-color: #093846;
+    color:antiquewhite ;
+    transition: 1s;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .purchase :hover{
+    opacity: 0.9;
+    transition: 1s;
+    background-color: #10566b;
+    
+  }
+  .name{
+    font-size: 10px;
+  }
+  .price{
+    font-size: 25px;
+  }

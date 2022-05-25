@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: block;
+  font-size: calc(2px + 2vmin);
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+.subTitle{
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  color: #282c34;
+  align-items: center;
+  align-content: center;
+  display: flex;
+   justify-content: center;
+  
+}
+.body-container{
+  display: block;
+  height: 10px;
+
+}
+.body{
+  display: block;
+  flex-direction:column ;
+  width: 100%;
+  background-color: aliceblue;
+
+}
+
+
+
+.constrast-icon{
+background-color: #093846;
+}
